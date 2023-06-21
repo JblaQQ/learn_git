@@ -1,38 +1,69 @@
+body{
+  padding: 0;
+  margin: 0;
+}
+nav{
+  background-color: brown;
+  padding: 30px;
+}
 nav ul{
   list-style-type:none;
-    margin:0;
-    padding:0;
+  margin:0;
+  padding:0;
 }
 nav li{display:inline;
   margin-right:10px;
-  }
+}
 nav a{
   text-decoration:none;
   color:blue;}
 title{
   color:blue;
-   }
-  h1{
-    color:black;
-  }
+}
+#About{
+  background: whitesmoke;
+  text-align: center;
+  
+}
+#work{
+  background: brown;
+  opacity: 0.7;
+  padding: 40px;
 
+}
+
+#Contact{
+  padding: 20px;
+}
+h1{
+  color:black;
+  padding: 10px;
+}
+h2{
+  padding: 10px;
+  margin-top: 0;
+  color: green;
+  font-size: 40px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
 h3{
   color:blue;
   font-style:italic;
   font-size:40px;
-  }
-
+  padding: 10px;
+}
 
 p{
 font-family:roboto;
+padding: 10px;
+margin: 0;
+color: black;
 } 
 button{
   color:white;
   background-color:green;
 }
+
 footer{
-  color:blue;
-     }
-  section{
-    color:green;
-     }
+  background: brown;
+    }
